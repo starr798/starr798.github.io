@@ -1,6 +1,6 @@
-## 邓冲是 个笨蛋！！
+## 邓冲是个大笨蛋！！
 
-You can use the [editor on GitHub](https://github.com/starr798/starr798.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+点击 [环球网](http://world.huanqiu.com/photo/2019-06/2936327.html) 可以获得更多资讯！！
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
