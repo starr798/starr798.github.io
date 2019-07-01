@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>手机环球网</title>
+    <meta name="keywords" content="环球新闻网,新闻，环球，军事，新闻网，环球网，环球时报，娱乐，国内新闻，图片新闻网">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="apple-mobile-web-app-title" content="手机环球网">
+    <link rel="shortcut icon" href="//himg2.huanqiu.com/statics/images/favicon1.ico">
+    <link rel="apple-touch-icon" href="//himg2.huanqiu.com/statics/www/hq_m/dist/m_huanqiu/images/icon.png">
+    <link rel="stylesheet" type="text/css" href="//himg2.huanqiu.com/statics/www/hq_m/dist/m_huanqiu/css/index.css"> 
+    <script type="text/javascript" src="//himg2.huanqiu.com/statics/www/hq_m/dist/m_huanqiu/libs/zepto.min.js"></script>
+    <script type="text/javascript" src="//himg2.huanqiu.com/statics/www/hq_m/dist/m_huanqiu/libs/flexble.js"></script>
+    <script type="text/javascript" src="//ipengtai.huanqiu.com/resource/js/base_mobile2_baidu.js?t=123456789"></script>
+</head>
+<body>  
+<script type="text/javascript" >
+    var indexFloatAd = '<div id="AD_SURVEY_POSITION_SIMPLE_44441" style="display:none;"><script type="text/javascript">window.AD_SURVEY_Add_AdPos_Simple && AD_SURVEY_Add_AdPos_Simple("44441");<\/script></div>';
+
+    function setCookie(cname,cvalue,exdays){
+        var d = new Date();
+        d.setTime(d.getTime()+(exdays*60*1000));
+        var expires = "expires="+d.toGMTString();
+        document.cookie = cname+"="+cvalue+"; "+expires;
+    }
+    function getCookie(cname){
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0; i<ca.length; i++) {
+            var c = ca[i].trim();
+            if (c.indexOf(name)==0) { return c.substring(name.length,c.length); }
+        }
+        return "";
+    }
+
+    function checkCookie(){
+        var oAdShow=getCookie("adShow");
+        if (!oAdShow){
+            $("body").prepend(indexFloatAd);
+            setCookie("adShow","1",10); 
+        }
+    }
+    checkCookie();
+</script>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     style="width: 0; height: 0; visibility: hidden; position: absolute; z-index: -1">
+    <symbol id="user-icon" viewBox="0 0 32 32">
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g transform="translate(-581.000000, -139.000000)">
+                <g transform="translate(581.000000, 139.000000)">
+                    <path d="M6.21873171,26.7251122 C8.89529756,29.1619122 12.3639415,30.5038049 15.9843902,30.5038049 C19.6040585,30.5038049 23.0742634,29.1603122 25.7532488,26.7226927 L25.9218732,26.5700683 L25.8419512,26.3566439 C24.3226537,22.2343024 20.3608976,19.4657951 15.9843902,19.4657951 C11.6094439,19.4657951 7.64854634,22.2359024 6.12760976,26.3582439 L6.05010732,26.5708488 L6.21873171,26.7251122 Z M15.9843902,31.9687805 C7.17061463,31.9687805 0,24.7981659 0,15.9843902 C0,7.17061463 7.17061463,0 15.9843902,0 C24.7981659,0 31.9687805,7.17061463 31.9687805,15.9843902 C31.9687805,24.7981659 24.7981659,31.9687805 15.9843902,31.9687805 L15.9843902,31.9687805 Z"
+                          fill="#D2D2D2"></path>
+                    <path d="M15.863479,7 C12.629942,7 10,9.63095477 10,12.8644917 C10,16.0969653 12.6310054,18.7269073 15.863479,18.7269073 C19.0959525,18.7269073 21.7279707,16.0969653 21.7279707,12.8644917 C21.726958,9.63095477 19.0959525,7 15.863479,7"
+                          fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </symbol>
+    <symbol id="video-icon" viewBox="0 0 1024 1024">
+        <path d="M393.441279 74.78424c127.59605-30.905894 269.732258-10.556427 376.977817 68.236104 162.337295 110.00337 229.346455 332.312548 164.324556 515.751441-39.924291 116.734678-130.198318 214.808344-243.570411 263.612886-192.022385 86.599334-440.164928 18.818601-554.761919-159.726841C60.673359 653.879358 42.924113 511.131213 77.033979 384.445906 118.809431 234.967476 243.193323 113.795742 393.441279 74.78424zM498.089687 102.783944c-196.909695 3.667529-374.693798 166.913521-392.906601 363.211279C75.809081 681.109536 249.783415 895.767454 465.502501 914.585031c219.2454 30.136368 436.652941-151.166885 449.502597-371.481639C940.718737 310.703391 730.79668 91.308589 498.089687 102.783944z"
+              p-id="11843" fill="#fff"></path>
+        <path d="M387.315768 297.392224c117.958552 69.924559 235.935524 139.840932 351.593683 213.126029C623.997282 583.191412 505.588475 650.202619 390.991484 723.339336 382.280078 581.659523 389.303029 439.375959 387.315768 297.392224z"
+              p-id="11844" fill="#fff"></path>
+    </symbol>
+    <symbol id="tip-close-icon" viewBox="0 0 1024 1024">
+        <path d="M512 512m-505.429418 0a10 10 0 1 0 1010.858835 0 10 10 0 1 0-1010.858835 0Z" p-id="22024"
+              fill="#b3b3b3"></path>
+        <path d="M809.984 273.9712 572.0064 512l237.9776 237.9776-60.0064 60.0064L512 572.0064 274.0224 809.984 214.016 749.9776 451.9936 512 214.016 273.9712l60.0064-60.0064L512 451.9936l237.9776-237.9776L809.984 273.9712z"
+              p-id="21032" fill="#000"></path>
+    </symbol>
+</svg>
+<header><a href="" class="header-logo"></a> <a href="" class="header-user" style="visibility: hidden">
+        <svg>
+            <use xlink:href="#user-icon"/>
+        </svg>
+    </a><a href="http://www.huanqiu.com"><span class="header-small">电脑版</span></a></header>
+<nav>
+    <div class="nav-scroll">
+        <div class="nav-main">
+            <ul class="nav-main-bar">
+                <li id="index" class="nav-item active"><a href="#channel=" >首页</a></li>
+                <li id="world" class="nav-item"><a href="#channel=world" >国际</a></li>
+                <li id="taihai" class="nav-item"><a href="#channel=taihai" >台海</a></li>
+                <li id="society" class="nav-item"><a href="#channel=society" >社会</a></li>
+                <li id="mil" class="nav-item"><a href="#channel=mil" >军事</a></li>
+                <li id="editorial" class="nav-item"><a href="#channel=editorial" >社评</a></li>
+                <li id="inland" class="nav-item"><a href="#channel=inland" >国内</a></li>
+                <li id="comment" class="nav-item"><a href="#channel=comment" >评论</a></li>
+                <li id="oversea" class="nav-item small"><a href="#channel=oversea" >海外看中国</a></   li>
+                <li id="bolan" class="nav-item"><a href="#channel=bolan" >博览</a></li>
+                <li id="video" class="nav-item"><a href="#channel=video" >视频</a></li>
+                <li id="finance" class="nav-item"><a href="#channel=finance" >财经</a></li>
+                <li id="chamber" class="nav-item"><a href="#channel=chamber" >商协会</a></li>
+                <li id="auto" class="nav-item"><a href="#channel=auto" >汽车</a></li>
+                <li id="tech" class="nav-item"><a href="#channel=tech" >科技</a></li>
+                <li id="smart" class="nav-item"><a href="#channel=smart" >智能</a></li>
+                <li id="shanrenping" class="nav-item"><a href="#channel=shanrenping" >单仁平</a></li >
+                <li id="uav" class="nav-item"><a href="#channel=uav" >无人机</a></li>
+                <li id="travel" class="nav-item"><a href="#channel=travel" >旅行</a></li>
+                <li id="health" class="nav-item"><a href="#channel=health" >健康</a></li>
+                <li id="ent" class="nav-item"><a href="#channel=ent" >娱乐</a></li>
+                <li id="art" class="nav-item"><a href="#channel=art" >艺术</a></li>
+                <li id="fashion" class="nav-item"><a href="#channel=fashion" >时尚</a></li>
+                <li id="women" class="nav-item"><a href="#channel=women" >女性</a></li>
+                <li id="sports" class="nav-item"><a href="#channel=sports" >体育</a></li>
+                <li id="bigdata" class="nav-item"><a href="#channel=bigdata" >大数据</a></li>
+                <li id="ski" class="nav-item"><a href="#channel=ski" >滑雪</a></li>
+                <li id="liuxue" class="nav-item"><a href="#channel=liuxue" >留学</a></li>
+                <li id="hope" class="nav-item"><a href="#channel=hope" >公益</a></li>
+                <li id="city" class="nav-item"><a href="#channel=city" >城市</a></li>
+                <li id="business" class="nav-item"><a href="#channel=business" >商业</a></li>
+                <li id="book" class="nav-item"><a href="#channel=book" >听书</a></li>
+                <li id="financing" class="nav-item"><a href="//jr.huanqiu.com/h5/?channel=h5-huanqiu-nav" >理财</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="nav-more-btn" id="nav-more-btn">更多</div>
+    <div class="nav-more" id="nav-more">
+       <a href="#channel=" class="nav-item">首页</a>
+        <a href="#channel=world" class="nav-item">国际</a>
+        <a href="#channel=taihai" class="nav-item">台海</a>
+        <a href="#channel=society" class="nav-item">社会</a>
+        <a href="#channel=mil" class="nav-item">军事</a>
+        <a href="#channel=editorial" class="nav-item">社评</a>
+        <a href="#channel=inland" class="nav-item">国内</a>
+        <a href="#channel=comment" class="nav-item">评论</a>
+        <a href="#channel=oversea" class="nav-item small">海外看中国</a>
+        <a href="#channel=bolan" class="nav-item">博览</a>
+        <a href="#channel=video" class="nav-item">视频</a>
+        <a href="#channel=finance" class="nav-item">财经</a>
+        <a href="#channel=chamber" class="nav-item">商协会</a>
+        <a href="#channel=auto" class="nav-item">汽车</a>
+        <a href="#channel=tech" class="nav-item">科技</a>
+        <a href="#channel=smart" class="nav-item">智能</a>
+        <a href="#channel=shanrenping" class="nav-item small">单仁平</a>
+        <a href="#channel=uav" class="nav-item small">无人机</a>
+        <a href="#channel=travel" class="nav-item">旅行</a>
+        <a href="#channel=health" class="nav-item">健康</a>
+        <a href="#channel=ent" class="nav-item">娱乐</a>
+        <a href="#channel=art" class="nav-item">艺术</a>
+        <a href="#channel=fashion" class="nav-item">时尚</a>
+        <a href="#channel=women" class="nav-item">女性</a>
+        <a href="#channel=sports" class="nav-item">体育</a>
+        <a href="#channel=bigdata" class="nav-item">大数据</a>
+        <a href="#channel=ski" class="nav-item">滑雪</a>
+        <a href="#channel=liuxue" class="nav-item">留学</a>
+        <a href="#channel=hope" class="nav-item">公益</a>
+        <a href="#channel=city" class="nav-item">城市</a>
+        <a href="#channel=business" class="nav-item">商业</a>
+        <a href="#channel=book" class="nav-item">听书</a>
+        <a href="//jr.huanqiu.com/h5?channel=h5-huanqiu-topfinacial" class="nav-item">理财</a>
+    </div>
+</nav>
+<div class="auto-info" id="auto-info"><p>成功为您推荐20条新闻</p></div>
+<div class="refresh-control" id="refresh-control">
+    <div class="refresh-control-text">
+        <svg version="1.1" id="loading-icon" class="loading-icon" xmlns="http://www.w3.org/2000/svg"
+             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 841.9 598.1"
+             enable-background="new 0 0 841.9 598.1" xml:space="preserve"><circle fill="none" stroke-width="12"
+                                                                                  stroke-miterlimit="10" cx="412.3"
+                                                                                  cy="300.3" r="140.3"/>
+            <path fill="none" stroke-width="8" stroke-linecap="round" stroke-miterlimit="10" d="M439.8,189.9
+        c34.1,8.1,62.5,31.7,76.9,63.1"/>
+            <path fill="none" stroke-width="8" stroke-linecap="round" stroke-miterlimit="10" d="M389.2,189.3
+        c7.8-1.5,15.6-2.4,23.9-2.4"/>
+            <path id="transform-icon" class="transform-icon" fill="none" stroke-width="12" stroke-linecap="round"
+                  stroke-miterlimit="10" d="M539.1,209.8
+        c50.6-12,85.9-12.3,92,1.8c11,25.3-76,87.3-194.1,138.5s-222.8,72.3-233.8,47.1c-5.9-13.6,16.6-37.9,57.1-65.4"/></svg>
+        <span id="refresh-text">下拉刷新</span></div>
+    <div class="refresh-control-container" id="content"></div>
+</div>
+
+<footer>
+    <div class="footer-text" id="footer-text">正在加载数据...</div>
+</footer>
+
+<div class="add-screen-tip" id="add-screen-tip">
+    <div class="tip-close" id="tip-close">
+        <svg>
+            <use xlink:href="#tip-close-icon"/>
+        </svg>
+    </div>
+    点击下方的<img src="//himg2.huanqiu.com/statics/www/hq_m/dist/m_huanqiu/images/safari_menu.png" alt="">，然后选择“添加到主屏幕”，可在桌面创建手机环球网快捷方式。
+</div>
+<script src="//himg2.huanqiu.com/statics/www/hq_m/dist/m_huanqiu/js/index.js"></script>
+<!--<script type="text/javascript" src="//himg2.huanqiu.com/statics/www/hq_m/dist/m_huanqiu/js/analytics_index.js"></script>-->
+
+<style type="text/css">
+.nav-more .nav-item:last-child { position:relative;}
+.nav-more .nav-item:last-child em { position: absolute; right:0.4rem; top:0.3rem; width:0.16rem; height:0.16rem; background:#ce0c0e; border-radius:50%; display:none;}
+</style>
+<script>
+    $(function(){
+        function getNowFormatDate() {
+            var date = new Date();
+            var seperator1 = "/";
+            var year = date.getFullYear();
+            var month = date.getMonth() + 1;
+            var strDate = date.getDate();
+            if (month >= 1 && month <= 9) {
+                month = "0" + month;
+            }
+            if (strDate >= 0 && strDate <= 9) {
+                strDate = "0" + strDate;
+            }
+            var currentdate = year + seperator1 + month + seperator1 + strDate;
+            currentdate = Date.parse(currentdate);
+            return currentdate;
+        }
+
+        function checkCookieNav(){
+            var iNavDot=localStorage.navDotShow;
+            if(iNavDot)
+            {
+                $(".nav-more").find(".nav-item").last().find("em").hide();
+            }
+            else
+            {
+                $(".nav-more").find(".nav-item").last().find("em").show();
+            }
+            $(".nav-more").find(".nav-item").last().on("click",function(){
+                localStorage.setItem("navDotShow",'1');
+                window.open("https://jr.huanqiu.com/h5?channel=h5-huanqiu-topfinacial","_self");
+            });
+        }
+
+        if(getNowFormatDate()>=1548345600000 && getNowFormatDate()<=1550073600000)
+        {
+            $(".nav-more").find(".nav-item").last().append("<em></em>");
+            $(".nav-more").find(".nav-item").last().attr("href","javascript:void(0)");
+            checkCookieNav();
+        }        
+    });
+
+</script>
+
+</body>
+</html>
